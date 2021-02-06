@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
+@keyframes pp {
+	from {color: #516673;}
+	to {color: #809fa6;}
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Patua One', cursive;
+	color:#516673;
+	font-size: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+a:hover {
+	animation: pp;
+	animation-duration: 0.3s;
+	color: #809fa6
+}
+
+h1 {
+	font-family: 'Patua One', cursive;
+	color:#bfd9d9;
+	padding: 200px;
+	font-size: 90px;
+	vertical-align: middle;
+}
+
+nav {
+	text-align: center;
+	background-image: url("hacker-1.jpg");
+	padding: 30px;
+	height: 800px;
+	margin: 0;
+}
+
+.text {
+	background-color: lightgrey;
+	height: 375px;
+	text-align: center
+}
+
+th {
+	text-align: center;
+	margin: auto 0;
+	padding: 30px;
+}
+
+.title {
+	font-family:  'Patua One', cursive;
+	color:#516673;
+	font-size: 25px
+}
+
+.minititle {
+	font-family:  'Patua One', cursive;
+	color: #283240;
+}
